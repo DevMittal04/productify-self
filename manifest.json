@@ -3,7 +3,6 @@
     "name": "Productify Self",
     "description": "Blocks access to the unproductive websites (specified by you)",
     "version": "0.1.0",
-    "options_page": "options.html",
     "permissions": ["storage", "tabs"],
     "background": {
         "scripts": ["background.js"],
