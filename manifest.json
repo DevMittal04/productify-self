@@ -1,0 +1,21 @@
+{
+    "manifest_version": 2,
+    "name": "Productify Self",
+    "description": "Blocks access to the unproductive websites (specified by you)",
+    "version": "0.1.0",
+    "options_page": "options.html",
+    "permissions": ["storage", "tabs"],
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+    "icons": {
+        "128": "/assets/icons/productivy128.png",
+        "64": "/assets/icons/productivy64.png",
+        "48": "/assets/icons/productivy48.png"
+    },
+    "browser_action": {
+        "default_icon": "/assets/icons/productivy64.png",
+        "default_popup": "popup.html"
+    }
+}

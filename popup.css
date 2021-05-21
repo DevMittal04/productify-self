@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+:root {
+    --bg-color: #DFE0CE;
+    --text-color: #174633;
+    --secondary-color: #521919;
+    --save-btn: #434377;
+    --btn-bg: #FFFFFF;
+    --primary-font: "Roboto Mono";
+}
+
+body {
+    background-color: var(--bg-color);
+    font-family: var(--primary-font);
+    font-weight: bolder;
+}
+
+.header {
+    margin-bottom: 10px;
+    display: block;
+
+}
+
+.icon {
+    display: inline;
+    width: 36px;
+    height: 36px;
+}
+
+.heading {
+    margin-left: 7px;
+    display: inline;
+    color: var(--text-color);
+    position: absolute;
+    top: -5px;
+}
+
+.section {
+    text-align: center;
+}
+
+#textarea {
+    margin-bottom: 5px;
+    padding: 5px 15px;
+    border-radius: 3px;
+    line-height: 2rem;
+    font-family: var(--primary-font);
+    font-weight: bolder;
+    font-size: larger;
+    color: var(--secondary-color);
+}
+
+.footer {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 12px;
+}
+
+#save {
+    background-color: var(--save-btn);
+    cursor: pointer;
+}
+
+label {
+    cursor: pointer;
+    user-select: none;
+    font-size: 1rem;
+    color: var(--btn-bg);
+    font-weight: lighter;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#checkbox {
+    display: none;
+}
